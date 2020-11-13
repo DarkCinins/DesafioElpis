@@ -18,21 +18,21 @@ class ProdutosTableSeeder extends Seeder
         Produtos::insert([
             'nome' => 'Leite',
             'preco' => 'R$3,99',
-            'descricao' => 'Laticínio',
+            'descricao' => 'Laticinio',
             'imagem' => 'None',
         ]);
 
         Produtos::insert([
             'nome' => 'Margarina',
             'preco' => 'R$5,99',
-            'descricao' => 'Laticínio',
+            'descricao' => 'Laticinio',
             'imagem' => 'None',
         ]);
 
         Produtos::insert([
             'nome' => 'Danone',
             'preco' => 'R$4,99',
-            'descricao' => 'Laticínio',
+            'descricao' => 'Laticinio',
             'imagem' => 'None',
         ]);
     }
